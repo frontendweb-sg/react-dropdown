@@ -10,8 +10,8 @@
     "skipLibCheck": true,
     "jsx": "react-jsx",
     "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
+    //"declarationMap": true,
+    //"sourceMap": true,
     "outDir": "dist",
     "typeRoots": ["node_modules/@types/"]
   }
