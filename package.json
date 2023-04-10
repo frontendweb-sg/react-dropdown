@@ -6,9 +6,13 @@
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "type": "module",
+  "sideEffects": false,
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=8"
+  },
   "author": "frontendweb",
   "license": "MIT",
   "scripts": {
