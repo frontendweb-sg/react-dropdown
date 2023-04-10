@@ -13,11 +13,15 @@
   "license": "MIT",
   "scripts": {
     "dev": "rollup -c --watch",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
     "url": "git@frontendweb:frontendweb-sg/react-dropdown.git"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "keywords": [
     "react",
@@ -25,5 +29,10 @@
     "tag creator",
     "input",
     "select"
-  ]
+  ],
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
+    "prettier": "2.8.7"
+  }
 }
