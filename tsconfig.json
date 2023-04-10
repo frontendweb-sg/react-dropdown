@@ -1,0 +1,18 @@
+{
+  "exclude": ["node_modules", "examples", "public", "src/__tests__"],
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "typeRoots": ["node_modules/@types/"]
+  }
+}
