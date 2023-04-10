@@ -1,0 +1,29 @@
+{
+  "name": "@frontendweb-sg/react-dropdown",
+  "version": "1.0.0",
+  "description": "React dropdown",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "type": "module",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "frontendweb",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@frontendweb:frontendweb-sg/react-dropdown.git"
+  },
+  "keywords": [
+    "react",
+    "dropdown",
+    "tag creator",
+    "input",
+    "select"
+  ]
+}
