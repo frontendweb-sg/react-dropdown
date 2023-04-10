@@ -1,3 +1,3 @@
-export function abc(a: Number) {
+export function abc(a: number) {
   return a;
 }

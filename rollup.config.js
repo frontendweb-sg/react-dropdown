@@ -2,7 +2,11 @@ import typescript from '@rollup/plugin-typescript';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import terser from '@rollup/plugin-terser';
-import pkg from './package.json' assert { type: 'json' };
+//import pkg from './package.json' assert { type: 'json' };
+
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const pkg = require('./package.json');
 
 const isProd = process.env.ROLLUP_WATCH ?? false;
 const ext = ['.js', '.jsx', '.ts', '.tsx', '.json'];
